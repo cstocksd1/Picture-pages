@@ -75,6 +75,15 @@ header {
   text-align: right;
 }
 
+#ctime p {
+    text-align: right;
+    color=white;
+}
+
+#ctime a {
+    color:white;
+    text-decoration: none;
+}
 
 body {
   background-image: url("./images/PFBackview..JPG");
