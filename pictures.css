@@ -1,0 +1,97 @@
+/* * {
+  box-sizing: border-box; 
+} */
+
+@font-face {
+  font-family: mont;
+  src: url("./fonts/Mont.ttf");
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+ 
+}
+
+.navbox {
+ 
+  width:100%;
+  background-color: darkgreen;
+  position: fixed;
+  top: 0;
+
+ 
+ 
+}
+
+.navmenu {
+  display: inline-block;
+  padding: 015px 0 40px 40px;
+  height: 1px;
+  color:white;
+  font-size: large;
+
+  
+}
+
+header {
+  font-family: mont;
+  background-color:green;
+  padding-top: 2%;
+  height: 275px;
+  font-size: 70px;
+  text-align: center;
+  color: white;
+  margin-bottom: 0px;
+  margin-top: -10px0;
+}
+ 
+.tagline {
+  font-size: 30px;
+  margin-top: -40px;
+}
+
+.infobar {
+  width: 100%;
+  background-color: darkgreen;
+}
+
+.infoitem {
+  display: inline-block;
+  
+  background-color: darkgreen;
+  padding: 0px 30px;
+  color:white;
+  font-size: large;
+
+
+}
+
+#datetime {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+  color: #eee820;
+  font-weight: bold;
+  text-align: right;
+}
+
+
+body {
+  background-image: url("./images/PFBackview..JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login {
+  background-color:hotpink;
+  padding: 2px;
+  border-radius: 25px;
+  max-width: 30%;
+  margin: 50px auto;
+  text-align: center;
+  margin-top: 015;
+  height: 300px;
+
+
+}
+
