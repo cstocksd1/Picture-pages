@@ -19,9 +19,12 @@ html, body {
   background-color: darkgreen;
   position: fixed;
   top: 0;
+  
+}
 
- 
- 
+.navbox a {
+    color:white;
+    text-decoration: none;
 }
 
 .navmenu {
