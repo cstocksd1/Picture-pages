@@ -23,8 +23,8 @@ html, body {
 }
 
 .navbox a {
-    color:white;
-    text-decoration: none;
+  color:white;
+  text-decoration: none;
 }
 
 .navmenu {
@@ -33,26 +33,70 @@ html, body {
   height: 1px;
   color:white;
   font-size: large;
-
-  
 }
 
 header {
-  font-family: mont;
+
+  font-family: mont, Arial, Helvetica, sans-serif;
   background-color:green;
-  padding-top: 2%;
-  height: 275px;
+  padding-top: 25px;
+  height: 200px;
   font-size: 70px;
   text-align: center;
   color: white;
   margin-bottom: 0px;
   margin-top: -10px0;
 }
+
+.reg-header {
+  text-align: center;
+  color:black;
+  background-color:hotpink;
+  padding-top:7px;
+  top:100px;
+  font-family: mont,arial;
+  font-size: 50px;
+  height:40px;
+  display:inline-block;
+  width:100%;
+  margin:30px 0 0 0;
+  font-weight: bolder;
+
+}
  
+.reg-input {
+  background-color:lightgreen;
+  padding: 5px;
+  border-radius: 25px;
+  max-width: 45%;
+  margin: 5px auto;
+  text-align: center;
+  margin-top: 400px;
+  height: 200px;
+}
+
+.form-container {
+  vertical-align: auto;
+}
+
+.reg-form-req {
+  display:flexbox;  
+  flex-direction: column;
+  align-items:center
+ 
+}
+
 .tagline {
   font-size: 30px;
-  margin-top: -40px;
+  margin: -75px 0 0 -49px;
 }
+
+.reg-tagline {
+  font-size: 30px;
+  
+  color:blue;
+}
+
 
 .infobar {
   width: 100%;
@@ -61,7 +105,6 @@ header {
 
 .infoitem {
   display: inline-block;
-  
   background-color: darkgreen;
   padding: 0px 30px;
   color:white;
@@ -89,9 +132,21 @@ header {
 }
 
 body {
-  background-image: url("./images/PFBackview..JPG");
+  background-image: url("./images/PFBackview..JPG"); 
   background-repeat: no-repeat;
   background-size: cover;
+
+}
+
+.reg-body{
+  background-image: url("./images/Family1.JPG"); 
+
+  background-position: 0px -5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
 }
 
 .login {
